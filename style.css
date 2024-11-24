@@ -1,0 +1,54 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    margin: 20px 30px;
+
+}
+
+
+.buttonContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.changeCountBtn{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border : 1px solid white;
+    cursor: pointer;
+}
+
+.clearBtn{
+    border : 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.colorWhite{
+    color: white;
+}
+
+.errorDiv{
+    color: red;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.padding20{
+    padding: 20px 10px;
+}
+
+.count{
+    border-bottom: 1px solid white;
+    width: fit-content;
+    padding: 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
